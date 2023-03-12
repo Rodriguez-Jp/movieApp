@@ -1,0 +1,17 @@
+{
+  "name": "movieapp",
+  "version": "1.0.0",
+  "description": "This is a movie consultor project were you can find information about any movie and filter by rating.",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@glidejs/glide": "^3.6.0"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.2.7"
+  }
+}
