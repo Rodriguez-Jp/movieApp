@@ -113,7 +113,10 @@ function displayLatest(movie, ref) {
   );
   const img = document.createElement("img");
   img.classList.add("object-fill", "h-full", "w-full");
-  img.src = String(poster_path) === "null" ? "nothing" : imgUrlClass;
+  img.src =
+    String(poster_path) === "null"
+      ? "../src/imgs/generic_movie_img.jpg"
+      : imgUrlClass;
 
   imgDiv.appendChild(img);
 
